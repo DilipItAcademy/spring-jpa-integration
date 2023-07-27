@@ -10,14 +10,13 @@ public class Main {
 		context.refresh();
 		
 		Customer c = new Customer();
-		c.setId(1);
+		c.setId(5);
 		c.setFirstName("Dilip");
 		c.setEmail("dilip@gmail.com");
 		c.setLastName("singh");
 		
 		CustomerOperations operations = context.getBean(CustomerOperations.class);
-		operations.addCustomer(c  );
+		operations.addCustomer(c);
 
 	}
-
 }
