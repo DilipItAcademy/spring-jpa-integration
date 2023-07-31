@@ -10,7 +10,6 @@ public class Main {
 		context.refresh();
 		
 		Customer c = new Customer();
-		c.setId(6);
 		c.setFirstName("Dilip");
 		c.setEmail("dilip@gmail.com");
 		c.setLastName("singh");
